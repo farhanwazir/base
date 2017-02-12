@@ -1,2 +1,2 @@
 # framework
-Resvel a modern CMS and application framwork.
+Resvel a modern CMS and custom application framework.
