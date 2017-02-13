@@ -1,6 +1,6 @@
 <?php
 
-namespace Restvel\Foundation;
+namespace Restvel\Base\Foundation;
 
 use Closure;
 use RuntimeException;
@@ -358,7 +358,7 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
      */
     public function databasePath()
     {
-        return $this->databasePath ?: $this->corePath().DIRECTORY_SEPARATOR.'database';
+        return $this->databasePath ?: $this->basePath().DIRECTORY_SEPARATOR.'database';
     }
 
     /**
@@ -383,7 +383,7 @@ class Application extends Container implements ApplicationContract, HttpKernelIn
      */
     public function langPath()
     {
-        return $this->resourcePath().DIRECTORY_SEPARATOR.'lang';
+        return $this->resourcePath().DIRECTORY_SEPARATOR.'translations';
     }
 
     /**

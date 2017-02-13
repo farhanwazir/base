@@ -1,6 +1,6 @@
 <?php
 
-namespace Restvel\Http;
+namespace Restvel\Base\Http;
 
 use Closure;
 use ArrayAccess;

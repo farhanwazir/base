@@ -1,6 +1,6 @@
 <?php
 
-namespace Restvel\Foundation;
+namespace Restvel\Base\Foundation;
 
 use Composer\Script\Event;
 
