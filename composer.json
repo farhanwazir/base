@@ -19,7 +19,7 @@
         "php": ">=5.6.4",
         "ext-mbstring": "*",
         "ext-openssl": "*",
-        "restvel/installer" : "dev",
+        "restvel/installer" : "@dev",
         "doctrine/inflector": "~1.0",
         "erusev/parsedown": "~1.6",
         "league/flysystem": "~1.0",
