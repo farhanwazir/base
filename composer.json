@@ -20,7 +20,8 @@
         "ext-mbstring": "*",
         "ext-openssl": "*",
         "restvel/installer" : "1.*",
-        "laravel/framework": "5.4.*"
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0"
     },
     "autoload": {
         "files": [
